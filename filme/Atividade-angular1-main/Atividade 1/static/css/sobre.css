@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url('../img/background/Cinemark_Sala-Comum-02_0.webp');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0; /* Adicione esta linha para remover a margem padrão do body */
+    padding: 0; /* Adicione esta linha para remover o preenchimento padrão do body */
+    height: 100vh;
+}
+
+
+
+/* NAVEGAÇÃO */
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px; 
+    width: 150px; 
+    margin: 20px auto; 
+    background-color: #fff; 
+}
+
+.logo img {
+    width: 100%; 
+    height: auto; 
+}
+
+a {
+    padding: 5rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav .navbar {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente os itens dentro do contêiner */
+    background-color: rgb(12, 159, 218);
+    padding: 1.3rem;
+
+}
+
+.navbar ul {
+    list-style-type: none ;
+    width: 100%;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 1.1em;
+    line-height: 60px;
+    width: 15%;
+    border-right: 1px solid #fff;
+}
+
+.navbar li:last-child {
+    border: none;
+}
+
+.navbar li:hover {
+    background-color: rgb(217, 224, 110, 0.589);
+    cursor: pointer;
+}
+
+.interface {
+    height: 75%;
+    width: 100%;
+    max-width: 1920px;
+    max-height: 1080px;
+    margin: auto;
+}
+
+
+
+/* SECTION */
+
+section {
+    border-radius: 25px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    width: 80%;
+    background-color: rgb(173, 163, 163, 0.705);
+    margin-top: 10vh;
+    margin-left: 20vh;
+    margin-right: 20vh;
+}
+
+.text {
+    width: 80%;
+}
+
+.text p {
+    color: #fff;
+    line-height: 1.5rem;
+    margin-top: 3.5rem;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    text-align: justify;
+}
+
+h1 {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5em;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    padding: 2.5vh 45vw;
+    margin-top: 31.3vh;
+    background-color: rgb(12, 159, 218);
+    text-align: center;
+}
+
+.footer-content {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    font-size: 1.1em;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
